@@ -5,7 +5,7 @@ FROM mysql:5.7
 EXPOSE 3306
 
 #MySQL設定ファイルをイメージ内にコピー
-ADD ./mysql.conf /etc/mysql/conf.d/mysql.conf
+ADD ./mysql.cnf /etc/mysql/conf.d/mysql.cnf
 
 #docker runに実行される
 CMD ["mysqld"]
