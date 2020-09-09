@@ -2,10 +2,10 @@
 docker上でmysqlを構築する。検証用に利用する
 
 # イメージのビルド
-$ docker-Compose build
+$ docker-compose build
 
 # コンテナの作成
-$ docker-Compose up -d
+$ docker-compose up -d
 
 # 起動したコンテナにログイン
 $ docker exec -it docker_mysql bash -p
